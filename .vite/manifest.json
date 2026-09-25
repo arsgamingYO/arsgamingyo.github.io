@@ -1,0 +1,113 @@
+{
+  "_query-ph1bZQfk.js": {
+    "file": "assets/query-ph1bZQfk.js",
+    "name": "query",
+    "imports": [
+      "_web-Bv2BQlUB.js"
+    ],
+    "dynamicImports": [
+      "node_modules/@solidjs/router/dist/data/serverForms.js"
+    ]
+  },
+  "_web-Bv2BQlUB.js": {
+    "file": "assets/web-Bv2BQlUB.js",
+    "name": "web"
+  },
+  "node_modules/@solidjs/router/dist/data/serverForms.js": {
+    "file": "assets/serverForms-C5keOzdc.js",
+    "name": "serverForms",
+    "src": "node_modules/@solidjs/router/dist/data/serverForms.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-Bv2BQlUB.js",
+      "_query-ph1bZQfk.js"
+    ],
+    "dynamicImports": [
+      "node_modules/@solidjs/web/serialization/dist/decode.js"
+    ]
+  },
+  "node_modules/@solidjs/web/serialization/dist/decode.js": {
+    "file": "assets/decode-BcQRVkkB.js",
+    "name": "decode",
+    "src": "node_modules/@solidjs/web/serialization/dist/decode.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/leaflet/dist/images/layers-2x.png": {
+    "file": "assets/layers-2x-Bpkbi35X.png",
+    "src": "node_modules/leaflet/dist/images/layers-2x.png"
+  },
+  "node_modules/leaflet/dist/images/layers.png": {
+    "file": "assets/layers-BWBAp2CZ.png",
+    "src": "node_modules/leaflet/dist/images/layers.png"
+  },
+  "node_modules/leaflet/dist/images/marker-icon.png": {
+    "file": "assets/marker-icon-hN30_KVU.png",
+    "src": "node_modules/leaflet/dist/images/marker-icon.png"
+  },
+  "src/routes/[...404].tsx?pick=default&pick=$css&lang.tsx": {
+    "file": "assets/_...404_-dOHVcEwv.js",
+    "name": "_...404_",
+    "src": "src/routes/[...404].tsx?pick=default&pick=$css&lang.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-Bv2BQlUB.js",
+      "virtual:solid-ssr-entry-client.tsx"
+    ]
+  },
+  "src/routes/index.tsx?pick=default&pick=$css&lang.tsx": {
+    "file": "assets/index-CP3mzIAE.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?pick=default&pick=$css&lang.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-Bv2BQlUB.js"
+    ],
+    "css": [
+      "assets/index-CFGcgR-l.css"
+    ],
+    "assets": [
+      "assets/layers-BWBAp2CZ.png",
+      "assets/layers-2x-Bpkbi35X.png",
+      "assets/marker-icon-hN30_KVU.png"
+    ]
+  },
+  "src/routes/users.tsx?pick=default&pick=$css&lang.tsx": {
+    "file": "assets/users-BitozLfP.js",
+    "name": "users",
+    "src": "src/routes/users.tsx?pick=default&pick=$css&lang.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-Bv2BQlUB.js"
+    ]
+  },
+  "src/routes/users/[id].tsx?pick=default&pick=$css&lang.tsx": {
+    "file": "assets/_id_-BmRguhom.js",
+    "name": "_id_",
+    "src": "src/routes/users/[id].tsx?pick=default&pick=$css&lang.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-Bv2BQlUB.js",
+      "_query-ph1bZQfk.js",
+      "virtual:solid-ssr-entry-client.tsx"
+    ]
+  },
+  "virtual:solid-ssr-entry-client.tsx": {
+    "file": "assets/virtual_solid-ssr-entry-client-Cg5PsP4q.js",
+    "name": "virtual_solid-ssr-entry-client",
+    "src": "virtual:solid-ssr-entry-client.tsx",
+    "isEntry": true,
+    "imports": [
+      "_web-Bv2BQlUB.js",
+      "_query-ph1bZQfk.js"
+    ],
+    "dynamicImports": [
+      "src/routes/[...404].tsx?pick=default&pick=$css&lang.tsx",
+      "src/routes/index.tsx?pick=default&pick=$css&lang.tsx",
+      "src/routes/users.tsx?pick=default&pick=$css&lang.tsx",
+      "src/routes/users/[id].tsx?pick=default&pick=$css&lang.tsx"
+    ],
+    "css": [
+      "assets/virtual_solid-ssr-entry-client-BWSJDTgo.css"
+    ]
+  }
+}

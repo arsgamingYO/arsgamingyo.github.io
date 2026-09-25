@@ -1,0 +1,18 @@
+{
+  "short_name": "RiddleMesh",
+  "name": "RiddleMesh // LoRa Geocaching Terminal",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#050806",
+  "theme_color": "#00ff66",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "description": "SolidJS PWA LoRa Geocaching riddle app with live RSSI peiler & node map."
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="100" fill="#050806"/>
+  <rect width="500" height="500" x="6" y="6" rx="94" fill="none" stroke="#00ff66" stroke-width="8" opacity="0.4"/>
+  
+  <!-- Cyber Signal Arcs -->
+  <path d="M 126 310 A 170 170 0 0 1 386 310" fill="none" stroke="#00ff66" stroke-width="24" stroke-linecap="round" opacity="0.4"/>
+  <path d="M 166 335 A 120 120 0 0 1 346 335" fill="none" stroke="#00ff66" stroke-width="24" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 206 360 A 70 70 0 0 1 306 360" fill="none" stroke="#a3e635" stroke-width="24" stroke-linecap="round"/>
+  
+  <!-- Center Node Dot -->
+  <circle cx="256" cy="385" r="24" fill="#00ff66"/>
+  
+  <!-- Terminal Skull / Glitch Skull Icon -->
+  <path d="M 256 120 C 200 120 170 155 170 200 C 170 235 185 255 200 270 L 200 295 L 312 295 L 312 270 C 327 255 342 235 342 200 C 342 155 312 120 256 120 Z" fill="#00ff66"/>
+  <!-- Eyes -->
+  <circle cx="225" cy="195" r="18" fill="#050806"/>
+  <circle cx="287" cy="195" r="18" fill="#050806"/>
+  <!-- Teeth / Grille -->
+  <rect x="220" y="270" width="12" height="25" rx="3" fill="#050806"/>
+  <rect x="250" y="270" width="12" height="25" rx="3" fill="#050806"/>
+  <rect x="280" y="270" width="12" height="25" rx="3" fill="#050806"/>
+</svg>
